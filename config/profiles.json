@@ -1,7 +1,8 @@
 {
   "controller_profiles": {
     "Xbox 360 Controller": "xbox",
-    "Controller (Xbox One For Windows)": "xbox"
+    "Controller (Xbox One For Windows)": "xbox",
+    "DualSense Wireless Controller": "dualsense"
   },
   "profiles": {
     "default": {
@@ -14,6 +15,21 @@
       "axes": {"0": "sway", "1": "surge", "2": "yaw", "3": "heave"},
       "invert": {"1": true, "3": true},
       "buttons": {"0": "grip_toggle", "1": "light_toggle", "7": "arm"},
+      "keys": {"w": "surge_fwd", "s": "surge_back", "a": "sway_left", "d": "sway_right"}
+    },
+    "dualsense": {
+      "axes": {
+        "0": "left_stick_x", "1": "left_stick_y",
+        "2": "right_stick_x", "3": "right_stick_y",
+        "4": "l2", "5": "r2"
+      },
+      "invert": {"1": true, "3": true},
+      "buttons": {
+        "0": "cross", "1": "circle", "2": "square", "3": "triangle",
+        "4": "create", "5": "ps", "6": "options",
+        "7": "l3", "8": "r3", "9": "l1", "10": "r1",
+        "11": "dpad_up", "12": "dpad_down", "13": "dpad_left", "14": "dpad_right"
+      },
       "keys": {"w": "surge_fwd", "s": "surge_back", "a": "sway_left", "d": "sway_right"}
     }
   }

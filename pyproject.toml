@@ -1,0 +1,14 @@
+[project]
+name = "rov-gcs"
+version = "0.1.0"
+description = "AAST Triton ROVs - Ground Control Station (Phase 1)"
+requires-python = ">=3.10"
+dependencies = ["pygame>=2.5"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+src = ["src", "tests"]

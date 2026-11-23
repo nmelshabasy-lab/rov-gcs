@@ -1,0 +1,20 @@
+{
+  "controller_profiles": {
+    "Xbox 360 Controller": "xbox",
+    "Controller (Xbox One For Windows)": "xbox"
+  },
+  "profiles": {
+    "default": {
+      "axes": {"0": "yaw", "1": "surge", "2": "sway", "3": "heave"},
+      "invert": {"1": true, "3": true},
+      "buttons": {"0": "grip_toggle", "1": "light_toggle", "7": "arm"},
+      "keys": {"w": "surge_fwd", "s": "surge_back", "a": "sway_left", "d": "sway_right"}
+    },
+    "xbox": {
+      "axes": {"0": "sway", "1": "surge", "2": "yaw", "3": "heave"},
+      "invert": {"1": true, "3": true},
+      "buttons": {"0": "grip_toggle", "1": "light_toggle", "7": "arm"},
+      "keys": {"w": "surge_fwd", "s": "surge_back", "a": "sway_left", "d": "sway_right"}
+    }
+  }
+}

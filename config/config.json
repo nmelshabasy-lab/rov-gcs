@@ -1,0 +1,21 @@
+{
+  "input": {
+    "sample_rate_hz": 50,
+    "deadzone": 0.1,
+    "default_profile": "default"
+  },
+  "profiles_file": "config/profiles.json",
+  "logging": {
+    "level": "INFO",
+    "file": "logs/gcs.log",
+    "max_bytes": 1000000,
+    "backup_count": 3
+  },
+  "network": {
+    "mnflty_ip": "192.168.1.10",
+    "mnflty_port": 5000
+  },
+  "mavlink": {
+    "device": "udp:127.0.0.1:14550"
+  }
+}
